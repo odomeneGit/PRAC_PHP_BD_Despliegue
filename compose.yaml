@@ -1,7 +1,7 @@
 services:
   app:
 # Producción
-    image: odomenedocker/aplicacionphp
+    image: odomenedocker/aplicacionphp:latest
 #    build: .
     container_name: php_app
     ports:
