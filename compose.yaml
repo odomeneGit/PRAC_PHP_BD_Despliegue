@@ -1,8 +1,8 @@
 services:
   app:
 # Producción
-#    image: odomenedocker/aplicacionphp
-    build: .
+    image: odomenedocker/aplicacionphp
+#    build: .
     container_name: php_app
     ports:
       - "${APP_PORT}:80"
