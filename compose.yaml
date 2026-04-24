@@ -1,7 +1,7 @@
 # Compose de producción
 services:
   app:
-    image: odomenedocker/aplicacionphp:v1
+    image: odomenedocker/aplicacionphp:v2
     container_name: php_app
     ports:
       - "${APP_PORT}:80"
